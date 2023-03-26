@@ -14,7 +14,7 @@ Le but de cette exercice est de faire une reduction en implémentant un produit 
 
 Ce calcul se fait en deux étapes. Tout d'abord, nous multiplions les éléments correspondants des deux vecteurs d'entrée. Cette opération est très similaire à l'addition de vecteurs, mais elle utilise la multiplication au lieu de l'addition. Cependant, au lieu de stocker ces valeurs dans un troisième vecteur de sortie, nous les additionnons toutes pour produire une seule sortie scalaire.
 
-Voici un exemple de produit scalaire entre deux vecteurs.
+Exemple de produit scalaire entre deux vecteurs :
 ![equation](Equation.png)
 
 Nous pouvons effectuer la première étape exactement comme comme une addition vectorielle. Chaque thread multiplie une paire d'entrées correspondantes, puis puis la stocke dans un cache (tableau en mémoire partagée).
